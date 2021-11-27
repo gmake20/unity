@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8215085011264980573}
   - component: {fileID: 7598128036403543125}
   - component: {fileID: 4812225417328669097}
+  - component: {fileID: -3941108284874599284}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -127,3 +128,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c825baed162fd146963787c545d4aad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 1
+  scorePoint: 100
+  explosionProfab: {fileID: 1645772445784240252, guid: 7505fa9e370644441bc0fa415d2ee1a9, type: 3}
+--- !u!95 &-3941108284874599284
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225633468020666172}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d0c13af7090b3264cb765ecdc33585f1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
