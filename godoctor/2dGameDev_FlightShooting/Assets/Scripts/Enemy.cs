@@ -13,6 +13,9 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private GameObject explosionProfab;
 
+    [SerializeField]
+    private GameObject[] itemPrefabs;   // 적을 죽였을때 획득가능한 아이템 
+
 
     private void Awake()
     {
@@ -33,7 +36,25 @@ public class Enemy : MonoBehaviour
     {
         playerController.Score += scorePoint;
         Instantiate(explosionProfab, transform.position, Quaternion.identity);
+        SpawnItem();
         Destroy(gameObject);
     }
 
+    private void SpawnItem()
+    {
+        // 파워업아이템
+        int spawnItem = Random.Range(0, 100);
+        if (spawnItem < 10)
+        {
+            Instantiate(itemPrefabs[0], transform.position, Quaternion.identity);
+        }
+        else if (spawnItem < 15)
+        {
+            Instantiate(itemPrefabs[1], transform.position, Quaternion.identity);
+        }
+        else if (spawnItem < 30)
+        {
+            Instantiate(itemPrefabs[2], transform.position, Quaternion.identity);
+        }
+    }
 }
