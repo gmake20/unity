@@ -9,6 +9,8 @@ public class PlayerBoom : MonoBehaviour
 
     [SerializeField]
     private AudioClip boomAudio;
+    [SerializeField]
+    private int damage = 100; // 폭탄 데미지
     private float boomDelay = 0.5f;
     private Animator animator;
     private AudioSource audioSource;
@@ -59,6 +61,21 @@ public class PlayerBoom : MonoBehaviour
         for(int i=0;i<meteorites.Length;++i)
         {
             meteorites[i].GetComponent<Meteorite>().OnDie();
+        }
+
+        // 현제 게임내에 존재하는 적, 보스의 발사제를 모두 파괴
+        // FindGameObject는 속도가 느리지 않을까? 속도문제는 해결해야됨.
+        GameObject[] projectiles = GameObject.FindGameObjectsWithTag("EnemyProjectile");
+        for(int i=0;i<projectiles.Length;i++)
+        {
+            projectiles[i].GetComponent<EnemyProjectile>().OnDie();
+        }
+
+        // 현재 게임내에서 Boss태그를 가진 오브젝트 정보를 가져온다.
+        GameObject boss = GameObject.FindGameObjectWithTag("Boss");
+        if(boss != null)
+        {
+            boss.GetComponent<BossHP>().TakeDamage(damage);
         }
 
         // 모든적을 제거하면 자기자신도 삭제한다.
