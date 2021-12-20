@@ -18,6 +18,13 @@
 /godoctor/2dGameDev_FlightShooting/[Ll]ogs/
 /godoctor/2dGameDev_FlightShooting/[Mm]emoryCaptures/
 
+/godoctor/PanelSwipe/[Ll]ibrary/
+/godoctor/PanelSwipe/[Tt]emp/
+/godoctor/PanelSwipe/[Oo]bj/
+/godoctor/PanelSwipe/[Bb]uild/
+/godoctor/PanelSwipe/[Bb]uilds/
+/godoctor/PanelSwipe/[Ll]ogs/
+/godoctor/PanelSwipe/[Mm]emoryCaptures/
 
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
