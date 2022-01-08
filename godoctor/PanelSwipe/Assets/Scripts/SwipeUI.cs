@@ -27,7 +27,6 @@ public class SwipeUI : MonoBehaviour
     private Transform[] circleContents;
     private float circleContentScale = 1.6f;
 
-
     private void Awake()
     {
         // 스크롤되는 페이지의 각 value값을 저장하는 배열 메모리할당
