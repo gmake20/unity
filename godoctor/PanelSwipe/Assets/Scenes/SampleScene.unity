@@ -926,6 +926,109 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5d3a0e50542d5545bdfb80ddbbdd51c, type: 3}
+--- !u!1 &144295658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4665559081187173231, guid: b5d3a0e50542d5545bdfb80ddbbdd51c, type: 3}
+  m_PrefabInstance: {fileID: 144295657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &144295659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144295658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6cfb236ca5e42b46c8163a3f03be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationView: {fileID: 1615986763}
+  rectDetails: {fileID: 1695217442}
+  equipmentPrefab: {fileID: 4144257665023777974, guid: 545242463fd1132419fa45e4583ab731, type: 3}
+  equipmentParent: {fileID: 1244276194}
+  equipmets:
+  - grade: 0
+    iconFile: Sword_1
+    name: NormalSword
+    price: 1500000
+    details: 'This is normal grade sword.
+
+
+      Damage +5
+
+      Critical Hit +10%'
+  - grade: 0
+    iconFile: Sword_2
+    name: MagicSword
+    price: 20000000
+    details: 'This is magic grade sword.
+
+
+      Damage +10
+
+      Critical Hit +15%'
+  - grade: 0
+    iconFile: Ax_1
+    name: NormalAxe
+    price: 1000000
+    details: 'This is normal grade axe
+
+
+      Damage +10
+
+      Critical Hit +8%'
+  - grade: 0
+    iconFile: Ax_2
+    name: MagicAxe
+    price: 20000000
+    details: 'This is magic grade axe.
+
+
+      Damage +20
+
+      Critical Hit +10%'
+  - grade: 0
+    iconFile: Ax_3
+    name: RareAxe
+    price: 50000000
+    details: 'This is rare grade axe.
+
+
+      Damage +30
+
+      Critical Hit +15%'
+  - grade: 0
+    iconFile: Bow
+    name: UniqueBow
+    price: 10000000
+    details: 'This is normal grade bow.
+
+
+      Damage +100
+
+      Critical Hit +50%'
+  - grade: 0
+    iconFile: Flail
+    name: SetFlalil
+    price: 44000000
+    details: 'This is set grade flail.
+
+
+      Damage +65
+
+      Critical Hit +35%'
+  - grade: 0
+    iconFile: Shurikens
+    name: RareShurikens
+    price: 3500000
+    details: 'This is rare grade shurikens.
+
+
+      Damage +55
+
+      Critical Hit
+      +10%'
 --- !u!224 &159370976 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6242941487922609487, guid: b5d3a0e50542d5545bdfb80ddbbdd51c, type: 3}
@@ -2060,6 +2163,116 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5d3a0e50542d5545bdfb80ddbbdd51c, type: 3}
+--- !u!224 &238998248 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1479011491755067169, guid: b5d3a0e50542d5545bdfb80ddbbdd51c, type: 3}
+  m_PrefabInstance: {fileID: 238998247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &238998249 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4665559081187173231, guid: b5d3a0e50542d5545bdfb80ddbbdd51c, type: 3}
+  m_PrefabInstance: {fileID: 238998247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &238998250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238998249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6cfb236ca5e42b46c8163a3f03be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationView: {fileID: 1615986763}
+  rectDetails: {fileID: 1695217442}
+  equipmentPrefab: {fileID: 4144257665023777974, guid: 545242463fd1132419fa45e4583ab731, type: 3}
+  equipmentParent: {fileID: 238998248}
+  equipmets:
+  - grade: 0
+    iconFile: Armor_1
+    name: NormalArmor
+    price: 10000
+    details: 'This is normal grade armor.
+
+
+      Defense +50
+
+      HP +1000'
+  - grade: 0
+    iconFile: Armor_2
+    name: MagicArmor
+    price: 20000
+    details: 'This is magic grade armor.
+
+
+      Defense +100
+
+      HP +2000'
+  - grade: 0
+    iconFile: Armor_3
+    name: RareArmor
+    price: 50000
+    details: 'This is normal grade armor.
+
+
+      Defense +200
+
+      HP +3000'
+  - grade: 0
+    iconFile: Helmet_1
+    name: NormalHelmet
+    price: 100000
+    details: 'This is normal grade helmet.
+
+
+      Damage +5
+
+      Defense +50'
+  - grade: 0
+    iconFile: Helmet_2
+    name: MagicHelmet
+    price: 0
+    details: 'This is magic grade helmet.
+
+
+      Damage +10
+
+      Defense +100'
+  - grade: 0
+    iconFile: Helmet_3
+    name: RareHelmet
+    price: 10000
+    details: 'This is rare grade helmet.
+
+
+      Damage +15
+
+      Defense +250'
+  - grade: 0
+    iconFile: Helmet_4
+    name: UniqueHelmet
+    price: 50000
+    details: 'This is unique grade helmet.
+
+
+      Damage +20
+
+      Defense +400'
+  - grade: 0
+    iconFile: Shield
+    name: SetShield
+    price: 90000
+    details: 'This is set grade shield.
+
+
+      Damage +100
+
+      Defense +200
+
+      Critical
+      Hit +25%'
 --- !u!1 &266835149
 GameObject:
   m_ObjectHideFlags: 0
@@ -3480,10 +3693,10 @@ RectTransform:
   m_Father: {fileID: 1674906296}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 540, y: -1025}
+  m_SizeDelta: {x: 800, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &439452133
 MonoBehaviour:
@@ -6584,10 +6797,10 @@ RectTransform:
   m_Father: {fileID: 1674906296}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 540, y: -775}
+  m_SizeDelta: {x: 800, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1052765985
 MonoBehaviour:
@@ -7634,10 +7847,10 @@ RectTransform:
   m_Father: {fileID: 1674906296}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 540, y: -525}
+  m_SizeDelta: {x: 800, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251340678
 MonoBehaviour:
@@ -7767,10 +7980,10 @@ RectTransform:
   m_Father: {fileID: 1674906296}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 540, y: -275}
+  m_SizeDelta: {x: 800, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1258640192
 MonoBehaviour:
@@ -8732,6 +8945,81 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5d3a0e50542d5545bdfb80ddbbdd51c, type: 3}
+--- !u!224 &1446680270 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1479011491755067169, guid: b5d3a0e50542d5545bdfb80ddbbdd51c, type: 3}
+  m_PrefabInstance: {fileID: 1446680269}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1446680271 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4665559081187173231, guid: b5d3a0e50542d5545bdfb80ddbbdd51c, type: 3}
+  m_PrefabInstance: {fileID: 1446680269}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1446680272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446680271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6cfb236ca5e42b46c8163a3f03be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationView: {fileID: 1615986763}
+  rectDetails: {fileID: 1695217442}
+  equipmentPrefab: {fileID: 4144257665023777974, guid: 545242463fd1132419fa45e4583ab731, type: 3}
+  equipmentParent: {fileID: 1446680270}
+  equipmets:
+  - grade: 0
+    iconFile: Elixir_1
+    name: HPPotion
+    price: 10000
+    details: 'This is HP Potion
+
+
+      HP +100'
+  - grade: 0
+    iconFile: Elixir_2
+    name: MPPotion
+    price: 20000
+    details: 'This is MP Potion
+
+
+      MP +100'
+  - grade: 0
+    iconFile: Elixir_3
+    name: STRPotion
+    price: 10000
+    details: 'This is Strength Potion
+
+
+      Strength +10'
+  - grade: 0
+    iconFile: Elixir_4
+    name: INTPotion
+    price: 10000
+    details: 'This is Intelligence Potion
+
+
+      Intelligence +10'
+  - grade: 0
+    iconFile: Elixir_5
+    name: DamagePotion
+    price: 10000
+    details: 'This is Damage Potion
+
+
+      Damage +10'
+  - grade: 0
+    iconFile: Elixir_6
+    name: CriticalPotion
+    price: 10000
+    details: 'This is Critical Potion
+
+
+      Critical Hit +10%'
 --- !u!1001 &1519002944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9387,6 +9675,93 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5d3a0e50542d5545bdfb80ddbbdd51c, type: 3}
+--- !u!224 &1610476402 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1479011491755067169, guid: b5d3a0e50542d5545bdfb80ddbbdd51c, type: 3}
+  m_PrefabInstance: {fileID: 1610476401}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1610476403 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4665559081187173231, guid: b5d3a0e50542d5545bdfb80ddbbdd51c, type: 3}
+  m_PrefabInstance: {fileID: 1610476401}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1610476404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610476403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6cfb236ca5e42b46c8163a3f03be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationView: {fileID: 1615986763}
+  rectDetails: {fileID: 1695217442}
+  equipmentPrefab: {fileID: 4144257665023777974, guid: 545242463fd1132419fa45e4583ab731, type: 3}
+  equipmentParent: {fileID: 1610476402}
+  equipmets:
+  - grade: 0
+    iconFile: Amulet_1
+    name: Normal Amulet
+    price: 1000000
+    details: 'This is normal grade amulet.
+
+
+      Str +10
+
+      Int + 10'
+  - grade: 0
+    iconFile: Amulet_2
+    name: Magic Amulet
+    price: 2000000
+    details: 'This is magic grade amulet.
+
+
+      Str +15
+
+      Int + 50'
+  - grade: 0
+    iconFile: Amulet_2
+    name: Rare Amulet
+    price: 5000000
+    details: 'This is rare grade amulet.
+
+
+      Str +100
+
+      Int + 100'
+  - grade: 0
+    iconFile: Stone_1
+    name: Normal Stone
+    price: 1000000
+    details: 'This is normal grade stone.
+
+
+      Str +5
+
+      Int + 5'
+  - grade: 0
+    iconFile: Stone_2
+    name: Magic Stone
+    price: 2000000
+    details: 'This is magic grade stone.
+
+
+      Str +15
+
+      Int + 15'
+  - grade: 0
+    iconFile: Stone_2
+    name: Rare Stone
+    price: 3000000
+    details: 'This is rare grade stone.
+
+
+      Str +35
+
+      Int + 35'
 --- !u!1001 &1613435796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9508,7 +9883,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1615986762
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9941,6 +10316,7 @@ GameObject:
   - component: {fileID: 1695217442}
   - component: {fileID: 1695217444}
   - component: {fileID: 1695217443}
+  - component: {fileID: 1695217445}
   m_Layer: 5
   m_Name: Detail
   m_TagString: Untagged
@@ -10007,6 +10383,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1695217441}
   m_CullTransparentMesh: 1
+--- !u!114 &1695217445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695217441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95451ba98c29f5c4fa1a84693091a5f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageIcon: {fileID: 923771480}
+  textName: {fileID: 849967924}
+  textPrice: {fileID: 177521455}
+  textDetails: {fileID: 222399167}
 --- !u!1 &1730023727
 GameObject:
   m_ObjectHideFlags: 0
@@ -12608,132 +13000,3 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2130862223980454181, guid: 973e1a58aaa65154fab20abfce59f0e0, type: 3}
   m_PrefabInstance: {fileID: 2140197099}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &4442741135869620406
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1244276194}
-    m_Modifications:
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 980
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 481.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -120
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268307794183578031, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4144257665023777974, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_Name
-      value: EquipmentButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359200308816803286, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359200308816803286, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359200308816803286, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1615986763}
-    - target: {fileID: 4359200308816803286, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359200308816803286, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Push
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359200308816803286, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: NavigationView, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359200308816803286, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 1695217442}
-    - target: {fileID: 4359200308816803286, guid: 545242463fd1132419fa45e4583ab731, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.RectTransform, UnityEngine
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 545242463fd1132419fa45e4583ab731, type: 3}

@@ -280,6 +280,8 @@ GameObject:
   - component: {fileID: 3560315192343160442}
   - component: {fileID: 447178441207254428}
   - component: {fileID: 4359200308816803286}
+  - component: {fileID: 632242390761776841}
+  - component: {fileID: 772881755343495704}
   m_Layer: 5
   m_Name: EquipmentButton
   m_TagString: Untagged
@@ -392,6 +394,34 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &632242390761776841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4144257665023777974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cff38db6d3197a48a87526ac1fb8d58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &772881755343495704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4144257665023777974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95451ba98c29f5c4fa1a84693091a5f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageIcon: {fileID: 7559507879405598601}
+  textName: {fileID: 7586877997260905988}
+  textPrice: {fileID: 4523439207832965850}
+  textDetails: {fileID: 0}
 --- !u!1 &5285009345611873895
 GameObject:
   m_ObjectHideFlags: 0
