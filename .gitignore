@@ -27,6 +27,25 @@
 /godoctor/PanelSwipe/[Mm]emoryCaptures/
 
 
+/godoctor/unity_3d_basic/[Ll]ibrary/
+/godoctor/unity_3d_basic/[Tt]emp/
+/godoctor/unity_3d_basic/[Oo]bj/
+/godoctor/unity_3d_basic/[Bb]uild/
+/godoctor/unity_3d_basic/[Bb]uilds/
+/godoctor/unity_3d_basic/[Ll]ogs/
+/godoctor/unity_3d_basic/[Mm]emoryCaptures/
+/godoctor/unity_3d_basic/[Uu]ser[Ss]ettings/
+
+
+/godoctor/unity_3d_basic*/[Ll]ibrary/
+/godoctor/unity_3d_basic*/[Tt]emp/
+/godoctor/unity_3d_basic*/[Oo]bj/
+/godoctor/unity_3d_basic*/[Bb]uild/
+/godoctor/unity_3d_basic*/[Bb]uilds/
+/godoctor/unity_3d_basic*/[Ll]ogs/
+/godoctor/unity_3d_basic*/[Mm]emoryCaptures/
+/godoctor/unity_3d_basic*/[Uu]ser[Ss]ettings/
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
