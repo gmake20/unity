@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 	[SerializeField]
 	private	Transform		cameraTransform;
 	private	Movement3D		movement3D;
-//	private	PlayerAnimator	playerAnimator;
+	private	PlayerAnimator	playerAnimator;
 
 	private void Awake()
 	{
@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
 		Cursor.lockState = CursorLockMode.Locked;	// 마우스 커서 위치 고정
 
 		movement3D		= GetComponent<Movement3D>();
-//		playerAnimator	= GetComponentInChildren<PlayerAnimator>();
+		playerAnimator	= GetComponentInChildren<PlayerAnimator>();
 	}
 
 	private void Update()
@@ -30,12 +30,12 @@ public class PlayerController : MonoBehaviour
 		movement3D.MoveTo(cameraTransform.rotation * new Vector3(x, 0, z));
 
 
-		/*
+		// 회전 설정 (항상 앞만 보도록 캐릭터의 회전은 카메라와 같은 회전 값으로 설정)
+		transform.rotation = Quaternion.Euler(0, cameraTransform.eulerAngles.y, 0);
+
 		// 애니메이션 파라미터 설정 (horizontal, vertical)
 		playerAnimator.OnMovement(x, z);
 
-		// 회전 설정 (항상 앞만 보도록 캐릭터의 회전은 카메라와 같은 회전 값으로 설정)
-		transform.rotation = Quaternion.Euler(0, cameraTransform.eulerAngles.y, 0);
 
 		// Space키를 누르면 점프
 		if ( Input.GetKeyDown(jumpKeyCode) )
@@ -55,7 +55,6 @@ public class PlayerController : MonoBehaviour
 		{
 			playerAnimator.OnWeaponAttack();
 		}
-		*/
 	}
 }
 
