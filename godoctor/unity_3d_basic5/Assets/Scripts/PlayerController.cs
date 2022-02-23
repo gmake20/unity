@@ -11,8 +11,8 @@ public class PlayerController : MonoBehaviour
 
 	private void Awake()
 	{
-		Cursor.visible	 = false;					// 마우스 커서를 보이지 않게
-		Cursor.lockState = CursorLockMode.Locked;	// 마우스 커서 위치 고정
+		// Cursor.visible	 = false;					// 마우스 커서를 보이지 않게
+		// Cursor.lockState = CursorLockMode.Locked;	// 마우스 커서 위치 고정
 
 		movement3D		= GetComponent<Movement3D>();
 		playerAnimator	= GetComponentInChildren<PlayerAnimator>();
@@ -43,6 +43,10 @@ public class PlayerController : MonoBehaviour
 			playerAnimator.OnJump();	// 애니메이션 파라미터 설정 (onJump)
 			movement3D.JumpTo();		// 점프 함수 호출
 		}
+
+
+		// 마우스가 UI위에 있을때는 아래코드를 실행하지 않도록 설정
+		if (UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject()) return;
 
 		// 마우스 왼쪽 버튼을 누르면 발차기 공격
 		if ( Input.GetMouseButtonDown(0) )
