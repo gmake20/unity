@@ -9,3 +9,6 @@
 
 고박사의 유니티 3D기초 (Unity 3D Basic)
 + https://www.youtube.com/watch?v=G5ohGqCYirs&list=PLC2Tit6NyVidtjrK6nKMkSBGRUmfz8IMK
+
+![3d_1](https://github.com/gmake20/unity/blob/main/pds/images/gobaksa_3d_1.png?raw=true)
+![3d_2](https://github.com/gmake20/unity/blob/main/pds/images/gobaksa_3d_2.png?raw=true)
