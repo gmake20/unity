@@ -12,3 +12,7 @@
 
 ![3d_1](https://github.com/gmake20/unity/blob/main/pds/images/gobaksa_3d_1.png?raw=true)
 ![3d_2](https://github.com/gmake20/unity/blob/main/pds/images/gobaksa_3d_2.png?raw=true)
+
+미니맵
+![3d_minimap](https://github.com/gmake20/unity/blob/main/pds/images/gobaksa_3d_minimap.png?raw=true)
+
