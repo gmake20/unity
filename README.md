@@ -16,3 +16,6 @@
 미니맵
 ![3d_minimap](https://github.com/gmake20/unity/blob/main/pds/images/gobaksa_3d_minimap.png?raw=true)
 
+Dialog System
+![3d_minimap](https://github.com/gmake20/unity/blob/main/pds/images/dialog_system.png?raw=true)
+
