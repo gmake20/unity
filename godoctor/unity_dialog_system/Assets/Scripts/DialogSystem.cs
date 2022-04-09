@@ -6,6 +6,11 @@ using TMPro;
 public class DialogSystem : MonoBehaviour
 {
 	[SerializeField]
+	private int branch;
+	[SerializeField]
+	private DialogDB dialogDB;
+
+	[SerializeField]
 	private	Speaker[]		speakers;					// 대화에 참여하는 캐릭터들의 UI 배열
 	[SerializeField]
 	private	DialogData[]	dialogs;					// 현재 분기의 대사 목록 배열
@@ -19,6 +24,17 @@ public class DialogSystem : MonoBehaviour
 
 	private void Awake()
 	{
+		int index = 0;
+		for(int i=0;i<dialogDB.Entities.Count;i++)
+        {
+			if(dialogDB.Entities[i].branch == branch)
+            {
+				dialogs[index].name = dialogDB.Entities[i].name;
+				dialogs[index].dialogue = dialogDB.Entities[i].dialog;
+				index++;
+			}
+		}
+
 		Setup();
 	}
 

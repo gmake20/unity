@@ -717,6 +717,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79f87be2f716d5049b6e8f8dd546185f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  branch: 1
+  dialogDB: {fileID: 11400000, guid: edd6c3adfd186b24282265918cc0748f, type: 2}
   speakers:
   - spriteRenderer: {fileID: 1476076248}
     imageDialog: {fileID: 1098155089}
@@ -730,16 +732,14 @@ MonoBehaviour:
     objectArrow: {fileID: 259762102}
   dialogs:
   - speakerIndex: 0
-    name: "\uCF54\uD558\uCFE0"
-    dialogue: "\uC548\uB155\uD558\uC138\uC694. \uACE0\uBC15\uC0AC\uC785\uB2C8\uB2E4."
+    name: 
+    dialogue: 
   - speakerIndex: 1
-    name: "\uBBF8\uC0AC\uD0A4"
-    dialogue: "\uC624\uB298\uC740 \uB300\uD654 \uC2DC\uC2A4\uD15C \uC81C\uC791\uC5D0
-      \uB300\uD574 \uBC30\uC6CC\uBCF4\uB3C4\uB85D \uD558\uACA0\uC2B5\uB2C8\uB2E4."
+    name: 
+    dialogue: 
   - speakerIndex: 0
-    name: "\uCF54\uD558\uCFE0"
-    dialogue: "\uB300\uC0AC\uB97C Dialog\uC5D0 \uC785\uD574\uB450\uBA74 \uC21C\uCC28\uC801\uC73C\uB85C
-      \uC7AC\uC0DD\uD558\uAC8C \uB429\uB2C8\uB2E4."
+    name: 
+    dialogue: 
   isAutoStart: 1
 --- !u!4 &216634943
 Transform:
@@ -784,6 +784,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79f87be2f716d5049b6e8f8dd546185f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  branch: 2
+  dialogDB: {fileID: 11400000, guid: edd6c3adfd186b24282265918cc0748f, type: 2}
   speakers:
   - spriteRenderer: {fileID: 1476076248}
     imageDialog: {fileID: 1098155089}
@@ -797,19 +799,14 @@ MonoBehaviour:
     objectArrow: {fileID: 259762102}
   dialogs:
   - speakerIndex: 0
-    name: "\uCF54\uD558\uCFE0"
-    dialogue: "\uC774\uB807\uAC8C DialogSystem\uC744 \uC5EC\uB7EC\uAC1C \uB9CC\uB4E4\uC5B4\uC11C
-      \uBD84\uAE30\uB97C \uAD6C\uBD84\uD560\uC218\uC788\uC2B5\uB2C8\uB2E4."
+    name: 
+    dialogue: 
   - speakerIndex: 1
-    name: "\uBBF8\uC0AC\uD0A4"
-    dialogue: "\uB300\uC0AC\uB85C \uC774\uB8E8\uC5B4\uC9C4 \uBD84\uAE30\uC0AC\uC774\uC5D0
-      \uCE90\uB9AD\uD130\uB97C \uC6C0\uC9C1\uC774\uAC70\uB098 \uC624\uBE0C\uC81D\uD2B8\uB97C
-      \uC0DD\uC131\uD558\uB294\uAC83\uACFC \uAC19\uC774 "
+    name: 
+    dialogue: 
   - speakerIndex: 1
-    name: "\uBBF8\uC0AC\uD0A4"
-    dialogue: "\uAC8C\uC784 \uC9C4\uD589\uC5D0 \uD544\uC694\uD55C \uC5EC\uB7EC \uD589\uB3D9\uC744
-      \uD558\uACE0, \uD544\uC694\uD560\uB54C \uB610 \uB300\uC0AC\uB97C \uCD9C\uB825\uD558\uB3C4\uB85D
-      \uD569\uB2C8\uB2E4. "
+    name: 
+    dialogue: 
   isAutoStart: 1
 --- !u!4 &246921771
 Transform:
