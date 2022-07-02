@@ -27,16 +27,6 @@
 /godoctor/PanelSwipe/[Mm]emoryCaptures/
 
 
-/godoctor/unity_3d_basic/[Ll]ibrary/
-/godoctor/unity_3d_basic/[Tt]emp/
-/godoctor/unity_3d_basic/[Oo]bj/
-/godoctor/unity_3d_basic/[Bb]uild/
-/godoctor/unity_3d_basic/[Bb]uilds/
-/godoctor/unity_3d_basic/[Ll]ogs/
-/godoctor/unity_3d_basic/[Mm]emoryCaptures/
-/godoctor/unity_3d_basic/[Uu]ser[Ss]ettings/
-
-
 /godoctor/unity_3d_basic*/[Ll]ibrary/
 /godoctor/unity_3d_basic*/[Tt]emp/
 /godoctor/unity_3d_basic*/[Oo]bj/
@@ -45,6 +35,37 @@
 /godoctor/unity_3d_basic*/[Ll]ogs/
 /godoctor/unity_3d_basic*/[Mm]emoryCaptures/
 /godoctor/unity_3d_basic*/[Uu]ser[Ss]ettings/
+
+
+/godoctor/unity*/[Ll]ibrary/
+/godoctor/unity*/[Tt]emp/
+/godoctor/unity*/[Oo]bj/
+/godoctor/unity*/[Bb]uild/
+/godoctor/unity*/[Bb]uilds/
+/godoctor/unity*/[Ll]ogs/
+/godoctor/unity*/[Mm]emoryCaptures/
+/godoctor/unity*/[Uu]ser[Ss]ettings/
+
+/goldmetal/B*/[Ll]ibrary/
+/goldmetal/B*/[Tt]emp/
+/goldmetal/B*/[Oo]bj/
+/goldmetal/B*/[Bb]uild/
+/goldmetal/B*/[Bb]uilds/
+/goldmetal/B*/[Ll]ogs/
+/goldmetal/B*/[Mm]emoryCaptures/
+/goldmetal/B*/[Uu]ser[Ss]ettings/
+
+
+/other/Car*/[Ll]ibrary/
+/other/Car*/[Tt]emp/
+/other/Car*/[Oo]bj/
+/other/Car*/[Bb]uild/
+/other/Car*/[Bb]uilds/
+/other/Car*/[Ll]ogs/
+/other/Car*/[Mm]emoryCaptures/
+/other/Car*/[Uu]ser[Ss]ettings/
+
+
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
